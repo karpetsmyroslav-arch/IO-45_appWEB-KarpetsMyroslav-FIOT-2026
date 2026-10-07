@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звіти з лабораторних робіт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .student-photo {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 120px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .top-nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .top-nav button {
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: 1px solid black;
+            background-color: white;
+            cursor: pointer;
+        }
+        .top-nav button.active {
+            background-color: yellow;
+            font-weight: bold;
+        }
+        .main-container {
+            display: flex;
+            gap: 20px;
+        }
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            gap: 15px;
+        }
+        .sidebar button {
+            padding: 15px;
+            border-radius: 20px;
+            border: 1px solid black;
+            background-color: white;
+            cursor: pointer;
+            text-align: center;
+            font-weight: bold;
+        }
+        .content-area {
+            flex-grow: 1;
+            border: 1px solid black;
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h2>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ</h2>
+        <h3>З ДИСЦИПЛІНИ «WEB-ОРІЄНТОВАНІ ТЕХНОЛОГІЇ. FRONTEND РОЗРОБКИ»</h3>
+        <p>Виконавець : Студент (варіант 4505) Карпець Мирослав</p>
+        
+        <div class="student-photo">
+            ФОТО<br>студента
+        </div>
+    </div>
+
+    <div class="top-nav">
+        <button class="active">Лабораторна<br>робота №1</button>
+        <button>Лабораторна<br>робота №2</button>
+        <button>Лабораторна<br>робота №3</button>
+        <button>Лабораторна<br>робота №4</button>
+        <button>Лабораторна<br>робота №5</button>
+        <button>Лабораторна<br>робота №6</button>
+        <button>Лабораторна<br>робота №7</button>
+        <button>Лабораторна<br>робота №8</button>
+        <button>Лабораторна<br>робота №9</button>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <button>Тема Мета Місце<br>розташування сайту, звіту</button>
+            <button>Опис предметного середовища.<br>Опис бізнес-логіки</button>
+            <button>Структура документа</button>
+            <button>HTML-код ТАБЛИЦІ</button>
+            <button>HTML-код ЗОБРАЖЕННЯ</button>
+            <button>HTML-код ФОРМИ</button>
+            <button>HTML-код</button>
+            <button>Головна сторінка WEB-застосунку</button>
+            <button>Код головної сторінки WEB-<br>застосунку</button>
+            <button>ВИСНОВКИ</button>
+        </div>
+
+        <div class="content-area">
+            Місце виведення інформації
+        </div>
+    </div>
+
+</body>
+</html>
